@@ -1,0 +1,19 @@
+body{background:radial-gradient(circle,black ,red);animation-name:colorchange;animation-duration:2s;animation-timing-function:linear;animation-iteration-count:infinite;-o-animation-name:colorchange;-o-animation-duration:2s;-o-animation-timing-function:linear;-o-animation-iteration-count:infinite;display:block;text-align:center;}
+@keyframes colorchange{from{background:radial-gradient(circle,black ,red);} to{background:radial-gradient(circle,red,black);}}
+h1{text-align:center;color:black;font-family:fantasy,Blippo;text-decoration:line-through;}
+p{font-family:sans-serif,Helvetica,Arial; font-size:small; font-style:italic; color:white;text-transform:uppercase;}
+a:hover{color:white;}
+h2{text-size:500%;color:black;text-decoration:line-through;font-family:fantasy,Blippo;}
+marquee{font-family:sans-serif,Helvetica,Arial; font-size:small; font-style:italic; color:white;text-transform:uppercase;}
+.navigation{word-spacing:50px;background-color:black;overflow:hidden;}
+.navigation a {font-size:15px;padding:14px 16px;text-decoration:none;color:white;font-family:sans-serif,Helvetica,Arial;font-style:italic;float:left; }
+.navigation a.active{background-color:red;}
+.navigation input[type=search]{float:right;padding:6px;border:none;margin-top:8px;margin-right:16px;font-size:15px;}
+.navigation .search-button{float:right;padding:4px;margin-top:8px;margin-right:20px;background-color:red;font-size:15px;border:none;cursor:pointer;width:10%; }
+input[type=text],input[type=password],input[type=email],input[type=tel],input[type=date]{width:20%;margin:8px 0;border:1px solid #ccc;box-sizing:border-box;}
+button{background-color:black;color:white;margin:8px 0;cursor:pointer;width:20%;}
+.dropdown{overflow:hidden;float:left;}
+.dropdown .dropbtn{font-size:15px;border:none;outline:none;color:white;padding:5px 16px;background-color:inherit;font-family:sans-serif;font-style:italic;}
+.dropdown-content{display:none;position:absolute;min-width:160px;background-color:#f9f9f9;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content a{float:none;color:black;padding:9px 16px;text-decoration:none;display:block;text-align:left;}
+.dropdown:hover .dropdown-content{display:block;}
